@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width" />
+		<meta name="description" content="space thing" />
+		<title>
+			Space thing
+		</title>
+	</head>
+	<body>
+		<textarea id="text"></textarea>
+		<form>
+			<select onchange="handleChange(this)">
+				<option value="0">mars</option>
+				<option value="1">moon</option>
+				<option value="2">sun</option>
+				<option value="3">saturn</option>
+				<option value="4">Jupiter</option>
+			</select>
+		</form>
+
+		<script>
+			const descriptions = [
+				"Mars text",
+				"Moon text",
+				"Sun text",
+				"Saturn text",
+				"Jupiter text"
+			];
+			handleChange = e => {
+				document.getElementById("text").innerText = descriptions[e.value];
+			};
+		</script>
+	</body>
+</html>

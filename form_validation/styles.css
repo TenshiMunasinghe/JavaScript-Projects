@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+form {
+  margin-left: 2vw;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 2vw;
+}
+
+input,
+textarea {
+  width: 50%;
+}
+
+form #submit {
+  margin-top: 2vw;
+  width: 5%;
+}
+
+form span {
+  color: rgb(209, 75, 81);
+}

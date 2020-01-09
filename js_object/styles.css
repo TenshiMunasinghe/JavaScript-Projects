@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  height: 100%;
+}
+
+div.background {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(5px);
+  height: 100%;
+  background-image: url("morning.jpg");
+}
+
+div.container {
+  text-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);
+  font-family: "Times New Roman", sans-serif;
+  background-color: rgba(69, 199, 217, 0.2);
+  border: solid #f1f1f1 0.5vh;
+  color: #000;
+  vertical-align: middle;
+  z-index: 2;
+  position: absolute;
+  width: 70%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1 {
+  margin: 3vh 0;
+  font-size: 7vw;
+}
+
+div.clock {
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+  padding: 1vh 0;
+  font-size: 4vw;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35vw;
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+div.greet {
+  margin: 3vh 0;
+  font-size: 4vw;
+}

@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  background-color: rgb(190, 72, 70);
+  padding: 2.5vw 0;
+}
+
+div.addTask {
+  text-align: center;
+  padding: 3vw;
+}
+
+input {
+  font-size: 2vw;
+  height: 4vw;
+  width: 40vw;
+  border: solid black 0.2vw;
+}
+
+.addTask button {
+  font-size: 1.5vw;
+  height: 4.4vw;
+  padding: 1vw 2vw;
+}
+
+ul {
+  width: 70%;
+  margin: auto;
+}
+
+ul li {
+  font-size: 3vw;
+  list-style: none;
+  clear: both;
+  padding: 1vw 5vw;
+  cursor: pointer;
+  background: #f1f1f1;
+}
+
+li.checked::before {
+  font-size: 2vw;
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+  text-decoration: none;
+  padding-right: 2vw;
+}
+
+ul li:nth-child(odd) {
+  background: rgb(144, 156, 163);
+}
+
+ul li.checked {
+  text-decoration: line-through;
+  background-color: rgb(168, 123, 109);
+}
+
+ul li:hover {
+  background-color: rgb(223, 142, 103);
+}
+
+li button {
+  font-size: 3vw;
+  vertical-align: middle;
+  text-align: right;
+  float: right;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
